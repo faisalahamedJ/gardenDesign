@@ -1,0 +1,108 @@
+.header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navbar{
+    width: 70%;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    position: relative;
+}
+.item{
+    cursor: pointer;
+    padding: 1rem;
+
+}
+
+
+.showcase{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.showcase >img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.showcase > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.welcomesite{
+    position: relative;
+    width: 80%;
+    margin: 2rem auto;
+    padding-top: 3rem;
+}
+.welcomesite>h3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+
+.welcomesite >div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.latestnews{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 3rem;
+}
+.latestnews >h2{
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.latestnews>.box{
+    padding: 1rem;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+
+
+
+
+
+
+
+
+
